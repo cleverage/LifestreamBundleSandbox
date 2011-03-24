@@ -75,6 +75,9 @@ cd zend-log/Zend
 install_git Log git://github.com/symfony/zend-log.git
 cd ../..
 
+# Zend Framework
+install_git zend git://github.com/zendframework/zf2.git
+
 # SensioFrameworkExtraBundle
 mkdir -p bundles/Sensio/Bundle
 cd bundles/Sensio/Bundle
@@ -92,6 +95,12 @@ mkdir -p bundles/Symfony/Bundle
 cd bundles/Symfony/Bundle
 install_git WebConfiguratorBundle git://github.com/symfony/WebConfiguratorBundle.git
 cd ../../..
+
+# GoutteBundle
+mkdir -p bundles/Sonata
+cd bundles/Sonata
+install_git GoutteBundle git://github.com/xavierlacot/GoutteBundle.git
+cd ../..
 
 # LifestreamBundle
 mkdir -p bundles/CleverAge/Bundle
