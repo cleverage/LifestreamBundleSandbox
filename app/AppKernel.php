@@ -18,7 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new Acme\DemoBundle\AcmeDemoBundle(),
-//            new CleverAge\Bundle\LifestreamBundle\LifestreamBundle(),
+            new CleverAge\Bundle\LifestreamBundle\CleverAgeLifestreamBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
