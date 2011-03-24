@@ -1,6 +1,7 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
+    - { resource: config_lifestream.yml }
 
 framework:
     charset:       UTF-8

@@ -1,6 +1,7 @@
 web/bundles/
 app/bootstrap*
 app/cache/*
+app/config/config_lifestream.yml
 app/logs/*
 build/
 vendor/

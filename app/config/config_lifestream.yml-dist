@@ -1,0 +1,5 @@
+parameters:
+    lifestream.lastfm.username: @lifestream_lastfm_username@
+    lifestream.lastfm.api_key:  @lifestream_lastfm_api_key@
+    lifestream.flickr.user_id:  @lifestream_flickr_user_id@
+    lifestream.flickr.api_key:  @lifestream_flickr_api_key@
