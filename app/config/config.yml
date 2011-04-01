@@ -45,7 +45,7 @@ doctrine:
         entity_managers:
             default:
                 mappings:
-                    AcmeDemoBundle: ~
+                    CleverAgeLifestream: ~
 
 # Swiftmailer Configuration
 swiftmailer:
