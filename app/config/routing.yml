@@ -1,11 +1,11 @@
 _lifestream:
-    resource: "@CleverAgeLifestreamBundle/Resources/config/routing.yml"
+    resource: "@CleverAgeLifestream/Resources/config/routing.yml"
 
 _demo_secured:
-    resource: "@AcmeDemoBundle/Controller/SecuredController.php"
+    resource: "@AcmeDemo/Controller/SecuredController.php"
     type:     annotation
 
 _demo:
-    resource: "@AcmeDemoBundle/Controller/DemoController.php"
+    resource: "@AcmeDemo/Controller/DemoController.php"
     type:     annotation
     prefix:   /demo
