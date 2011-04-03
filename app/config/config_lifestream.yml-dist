@@ -1,5 +1,7 @@
-parameters:
-    lifestream.lastfm.username: @lifestream_lastfm_username@
-    lifestream.lastfm.api_key:  @lifestream_lastfm_api_key@
-    lifestream.flickr.user_id:  @lifestream_flickr_user_id@
-    lifestream.flickr.api_key:  @lifestream_flickr_api_key@
+clever_age_lifestream:
+    apis:
+        lastfm:
+            class: CleverAge\Bundle\LifestreamBundle\ApiClient\Lastfm
+            config: 
+              username: Mobman02
+              api_key:  b25b959554ed76058ac220b7b2e0a026

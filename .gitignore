@@ -5,3 +5,4 @@ app/config/config_lifestream.yml
 app/logs/*
 build/
 vendor/
+nbproject/
