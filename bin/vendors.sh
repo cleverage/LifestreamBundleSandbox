@@ -92,11 +92,6 @@ cd $BUNDLES/Symfony/Bundle
 # WebConfiguratorBundle
 install_git WebConfiguratorBundle https://github.com/symfony/WebConfiguratorBundle.git
 
-# GoutteBundle
-mkdir -p $BUNDLES/Sonata
-cd $BUNDLES/Sonata
-install_git GoutteBundle git://github.com/xavierlacot/GoutteBundle.git
-
 # LifestreamBundle
 mkdir -p $BUNDLES/CleverAge/Bundle
 cd $BUNDLES/CleverAge/Bundle
