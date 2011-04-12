@@ -51,18 +51,3 @@ doctrine:
             default:
                 mappings:
                     CleverAgeLifestreamBundle: ~
-
-sonata_goutte:
-    class: Sonata\GoutteBundle\Manager
-    clients:
-        default:
-            config:
-                adapter: Zend\Http\Client\Adapter\Socket
-        curl:
-            config:
-                maxredirects: 0
-                timeout: 30
-                useragent: lifestream/0.1
-                adapter: Sonata\GoutteBundle\Adapter\Curl
-                verbose_log: %kernel.logs_dir%/curl.log
-                verbose: true
