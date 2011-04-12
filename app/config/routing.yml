@@ -1,2 +1,2 @@
 _lifestream:
-    resource: "@CleverAgeLifestream/Resources/config/routing.yml"
+    resource: "@CleverAgeLifestreamBundle/Resources/config/routing.yml"

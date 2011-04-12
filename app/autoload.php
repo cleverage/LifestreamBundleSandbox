@@ -6,16 +6,15 @@ $loader = new UniversalClassLoader();
 $loader->registerNamespaces(array(
     'Symfony'          => array(__DIR__.'/../vendor/symfony/src', __DIR__.'/../vendor/bundles'),
     'Sensio'           => __DIR__.'/../vendor/bundles',
-    'JMS'              => __DIR__.'/../vendor/bundles',
     'CleverAge'        => __DIR__.'/../vendor/bundles',
     'Sonata'           => __DIR__.'/../vendor/bundles',
     'Doctrine\\Common' => __DIR__.'/../vendor/doctrine-common/lib',
     'Doctrine\\DBAL'   => __DIR__.'/../vendor/doctrine-dbal/lib',
     'Doctrine'         => __DIR__.'/../vendor/doctrine/lib',
-    'Zend\\Log'        => __DIR__.'/../vendor/zend-log',
-    'Zend'             => __DIR__.'/../vendor/zend/library',
+    'Monolog'          => __DIR__.'/../vendor/monolog/src',
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Acme'             => __DIR__.'/../src',
+    'Zend'             => __DIR__.'/../vendor/zend/library',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
